@@ -1,7 +1,9 @@
 # Unity UDP ARENA Demo
 <img src="https://img.shields.io/badge/python-3.9-blue" /> <img src="https://img.shields.io/badge/unity-2019.4.18f1-blue"> <img src="https://img.shields.io/badge/ARENA-0.1.18-blue" /> <img src="https://img.shields.io/badge/maintained%3F-yes-green" /> <img src="https://img.shields.io/github/issues/OliviaLynn/Unity-UDP-ARENA-Demo" />
 
- Communication from Unity to ARENA via a Python UDP relay server. For the purposes of this demo, we're just syncing the position of a single object.
+ Communication from Unity to ARENA via a Python UDP relay server. 
+ 
+ For the purposes of this demo, we're just syncing the position of a single object.
 
 <img src="https://raw.githubusercontent.com/OliviaLynn/Unity-UDP-ARENA-Demo/main/video2.gif" />
 
@@ -24,3 +26,5 @@
 - **Firewall:** if Unity is giving you problems here, [this video](https://www.youtube.com/watch?v=gVA-NvX_aR8&t=5s) is really helpful in going over letting Unity use UDP/TCP through certain ports
 - **ARENA Auth:** if you need to sign out so you can relaunch the initial auth page, run from cmd:  `$ python3 -c "from arena import auth; auth.signout()"`
 - **MQTT Messages:** to see the MQTT messages our relay server is sending to AREA, toggle debug where we declare our `scene` var (though watch out, because this gets very cluttered at `UDPSend.cs`'s default 100 message attempts/second)
+
+
