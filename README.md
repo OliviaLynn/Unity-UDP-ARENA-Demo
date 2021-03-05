@@ -25,6 +25,7 @@
 ### Troubleshooting
 - **Firewall:** if Unity is giving you problems here, [this video](https://www.youtube.com/watch?v=gVA-NvX_aR8&t=5s) is really helpful in going over letting Unity use UDP/TCP through certain ports
 - **ARENA Auth:** if you need to sign out so you can relaunch the initial auth page, run from cmd:  `$ python3 -c "from arena import auth; auth.signout()"`
-- **MQTT Messages:** to see the MQTT messages our relay server is sending to AREA, toggle debug where we declare our `scene` var (though watch out, because this gets very cluttered at `UDPSend.cs`'s default 100 message attempts/second)
+- **MQTT Messages:** to see the MQTT messages our relay server is sending to AREA, toggle `debug` where we declare our `scene` var (though watch out, because this gets very cluttered at `UDPSend.cs`'s default 100 message attempts/second)
+- **Is Unity Actually Running:** because the simplest way for this demo to work is by moving the object (while the game is playing) from the Scene tab rather than interacting with the Game tab, it's pretty easy to forget to press play, and then wonder why the position isn't updating in ARENA
 
 
