@@ -1,4 +1,4 @@
-# Unity→UDP→ARENA Demo
+# Unity→UDP Srv→ARENA Demo
 <img src="https://img.shields.io/badge/python-3.9-blue" /> <img src="https://img.shields.io/badge/unity-2019.4.18f1-blue"> <img src="https://img.shields.io/badge/arena-0.1.18-blue" /> <img src="https://img.shields.io/badge/maintained%3F-yes-green" /> <img src="https://img.shields.io/github/issues/OliviaLynn/Unity-UDP-ARENA-Demo" />
 
  Communication from Unity to ARENA via a Python UDP relay server. 
