@@ -5,7 +5,7 @@
  
  For the purposes of this demo, we're just syncing the position of a single object.
 
-<img src="https://raw.githubusercontent.com/OliviaLynn/Unity-UDP-ARENA-Demo/main/video2.gif" />
+<img src="https://raw.githubusercontent.com/OliviaLynn/Unity-UDP-ARENA-Demo/main/video3.gif" />
 
 >A little latency, so get ready for Unity-ARENA 2: Electric Boogaloo, where we bypass the relay server entirely and run authentication directly from Unity...
 
