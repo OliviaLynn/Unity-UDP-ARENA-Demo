@@ -17,10 +17,12 @@
     - Mainly just `SCENE_NAME` for the ARENA scene you plan to use, and `UDP_PORT` for the port your server will be receiving UDP messages on
 - Create a new Unity project, or add to a preexisting project
 - Put `UDPSend.cs` on a new empty game object (or somewhere else in your scene)
+    - Specify the port you're using in the inspector (should be the same as the one you picked in `RelayServer.py`)
 - Add `SyncedObject.cs` to the object whose position you'd like to be tracking
     - Point its inspector `Udp Send` field to your `UDPSend.cs`
 - Run the relay server and your Unity project
     - If your ARENA scene isn't already running on a browser tab, launch it at `https://arena.andrew.cmu.edu/<yourusername>/<yourscene>`
+- While your Unity project is still running, switch over to the Unity Scene tab to wiggle your object around and see the synchronized cube move in ARENA
 
 ### Troubleshooting
 - **Firewall:** if Unity is giving you problems here, [this video](https://www.youtube.com/watch?v=gVA-NvX_aR8&t=5s) is really helpful in going over letting Unity use UDP/TCP through certain ports
